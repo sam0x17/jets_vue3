@@ -1,0 +1,16 @@
+/node_modules
+*.log
+/spec
+/public/packs-test
+.git
+*.md
+postcss.config.js
+*.sh
+yarn.lock
+/app/javascript
+/app/assets
+.browserlintrc
+.eslintrc
+.stylelintignore
+babel.config.js
+/vendor/bundle

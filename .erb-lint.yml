@@ -1,0 +1,21 @@
+---
+EnableDefaultLinters: true
+glob: "**/*.{html,text,js}{+*,}.erb"
+exclude:
+  - '**/vendor/**/*'
+  - '**/node_modules/**/*'
+linters:
+  ErbSafety:
+    enabled: true
+    better_html_config: .better-html.yml
+  RequireInputAutocomplete:
+    enabled: false
+  Rubocop:
+    enabled: true
+    rubocop_config:
+      inherit_from:
+        - .erb_rubocop.yml
+      Lint/UselessAssignment:
+        Enabled: false
+  FinalNewline:
+    enabled: true

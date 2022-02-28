@@ -1,0 +1,9 @@
+/public
+/node_modules
+/db
+/spec
+/tmp
+/.github
+/config
+/app/javascript/src/jets/crud.js
+/teams_bot

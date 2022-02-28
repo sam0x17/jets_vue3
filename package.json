@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@rails/ujs": "^6.1.4",
+    "@rails/webpacker": "rails/webpacker#89e891066a26e1fa9661337874947c8bcc6484cc",
+    "@rubyonjets/ujs-compat": "1.0.4",
+    "@vue/compiler-sfc": "^3.2.31",
+    "@vue/component-compiler-utils": "^3.3.0",
+    "axios": "^0.21.2",
+    "eslint": "^7.23.0",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
+    "popper.js": "^1.16.1",
+    "postcss-cssnext": "^3.1.0",
+    "uuid": "^8.3.2",
+    "vue": "^3.2.31",
+    "vue-loader": "^17.0.0",
+    "vue-router": "^3.5.2",
+    "vuelidate": "^0.7.6",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
